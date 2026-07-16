@@ -107,6 +107,7 @@ protocol MenuManagerDelegate {
                     // Launch Simulator
                     let simulatorItem = SimulatorMenuItem(runtime:runtime, device:device)
                     submenu.addItem(simulatorItem)
+                    submenu.addItem(RevealFilesStorageInFinderMenuItem(device: device))
                     submenu.addItem(NSMenuItem.separator())
                     
                     // Sort applications by name

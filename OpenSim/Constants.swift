@@ -16,6 +16,7 @@ struct UIConstants {
         static let menuShutDownAllSimulators = NSLocalizedString("Menu.FactoryResetAll", comment: "Factory Reset All Simulators")
         static let menuShutDownAllBootedSimulators = NSLocalizedString("Menu.FactoryResetOnlyShutdown", comment: "Factory Reset Only Shutdown Simulators")
         static let actionRevealInFinder = NSLocalizedString("Action.RevealInFinder", comment: "Reveal in Finder label")
+        static let actionRevealFilesStorageInFinder = NSLocalizedString("Action.RevealFilesStorageInFinder", comment: "Reveal Files app storage in Finder label")
         static let actionCopyPathPasteboard = NSLocalizedString("Action.CopyPathPasteboard", comment: "Copy Sandbox path to pasteboard label")
         static let actionOpenInTerminal = NSLocalizedString("Action.OpenInTerminal", comment: "Open in Terminal label")
         static let actionLaunch = NSLocalizedString("Action.Launch", comment: "Launch label")
