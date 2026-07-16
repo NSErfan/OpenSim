@@ -4,6 +4,7 @@
 "Menu.Version" = "Versão";
 "Menu.Launch" = "Inicie o";
 "Action.RevealInFinder" = "Abrir Sandbox no Finder";
+"Action.RevealFilesStorageInFinder" = "Mostrar armazenamento do app Arquivos no Finder";
 "Action.CopyPathPasteboard" = "Copiar caminho do Sandbox para o Pasteboard";
 "Action.OpenInTerminal" = "Abrir Sandbox no Terminal";
 "Action.Launch" = "Abrir App";

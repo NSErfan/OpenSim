@@ -11,6 +11,8 @@
 		312A27FD21A753E600699668 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A27FC21A753E600699668 /* Constants.swift */; };
 		31A79B15219B81660024DF7B /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A79B14219B81660024DF7B /* Simulator.swift */; };
 		31C4BF3221A8AC56008B97A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C4BF3021A8AC56008B97A1 /* Localizable.strings */; };
+		EFA000012EE90A0100000001 /* FilesStorageLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA000012EE90A0100000002 /* FilesStorageLocator.swift */; };
+		EFA000012EE90A0100000003 /* RevealFilesStorageInFinderMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA000012EE90A0100000004 /* RevealFilesStorageInFinderMenuItem.swift */; };
 		AF9D003A1D110E750065AFD0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D00391D110E750065AFD0 /* Helper.swift */; };
 		B20671202353ECAA00D6ED0D /* SimulatorShutdownMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206711F2353ECAA00D6ED0D /* SimulatorShutdownMenuItem.swift */; };
 		B20671222353ECB600D6ED0D /* SimulatorResetMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20671212353ECB600D6ED0D /* SimulatorResetMenuItem.swift */; };
@@ -50,6 +52,8 @@
 		31A79B14219B81660024DF7B /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		31C4BF3121A8AC56008B97A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		31C4BF3421A8AC72008B97A1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EFA000012EE90A0100000002 /* FilesStorageLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesStorageLocator.swift; sourceTree = "<group>"; };
+		EFA000012EE90A0100000004 /* RevealFilesStorageInFinderMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealFilesStorageInFinderMenuItem.swift; sourceTree = "<group>"; };
 		AF9D00391D110E750065AFD0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		B206711F2353ECAA00D6ED0D /* SimulatorShutdownMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorShutdownMenuItem.swift; sourceTree = "<group>"; };
 		B20671212353ECB600D6ED0D /* SimulatorResetMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorResetMenuItem.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A1E3331BF0709A0090EC58 /* URLHelper.swift */,
+				EFA000012EE90A0100000002 /* FilesStorageLocator.swift */,
 				B3054E191BF3958500F433C2 /* DirectoryWatcher.swift */,
 				B3054E1B1BF3988300F433C2 /* CancelBlocks.swift */,
 				AF9D00391D110E750065AFD0 /* Helper.swift */,
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				B39B2B6B1EBF510F00CDD74C /* RevealInFinderAction.swift */,
+				EFA000012EE90A0100000004 /* RevealFilesStorageInFinderMenuItem.swift */,
 				B39B2B6E1EBF567F00CDD74C /* CopyToPasteboardAction.swift */,
 				B39B2B701EBF56F200CDD74C /* OpenInTerminalAction.swift */,
 				B39B2B721EBF573C00CDD74C /* UninstallAction.swift */,
@@ -279,6 +285,7 @@
 			files = (
 				31A79B15219B81660024DF7B /* Simulator.swift in Sources */,
 				B39B2B6C1EBF510F00CDD74C /* RevealInFinderAction.swift in Sources */,
+				EFA000012EE90A0100000003 /* RevealFilesStorageInFinderMenuItem.swift in Sources */,
 				D17669C11D1883AE00816D61 /* SimulatorController.swift in Sources */,
 				B3F493A61BF0822800C64FF0 /* Application.swift in Sources */,
 				B39B2B611EBEF1A100CDD74C /* AppMenuItem.swift in Sources */,
@@ -288,6 +295,7 @@
 				B310B99B1D1AA08500D880CA /* ImageExtension.swift in Sources */,
 				B3054E1C1BF3988300F433C2 /* CancelBlocks.swift in Sources */,
 				B3A1E3341BF0709A0090EC58 /* URLHelper.swift in Sources */,
+				EFA000012EE90A0100000001 /* FilesStorageLocator.swift in Sources */,
 				B272BE94239A0D5B001C50A1 /* SimulatorEraseMenuItem.swift in Sources */,
 				B537A3F3228D2D1400E6E51E /* SimulatorMenuItem.swift in Sources */,
 				B3D188E91BF436480064E851 /* Runtime.swift in Sources */,

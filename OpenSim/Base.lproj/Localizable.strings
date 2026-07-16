@@ -10,6 +10,7 @@
 "Menu.DeleteSimulator" = "Delete Simulator";
 "Menu.FactoryResetOnlyShutdown" = "Factory Reset Only Shutdown Simulators";
 "Action.RevealInFinder" = "Reveal Sandbox in Finder";
+"Action.RevealFilesStorageInFinder" = "Reveal Files App Storage in Finder";
 "Action.CopyPathPasteboard" = "Copy Sandbox Path to Pasteboard";
 "Action.OpenInTerminal" = "Open Sandbox in Terminal";
 "Action.Launch" = "Launch App";
