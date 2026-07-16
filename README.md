@@ -1,14 +1,22 @@
-# OpenSim [![Travis](https://img.shields.io/travis/luosheng/OpenSim.svg)]()
+# OpenSim
 
-OpenSim is an open source alternative to [SimPholders](https://simpholders.com), written in Swift 4.
+OpenSim is an open source alternative to [SimPholders](https://simpholders.com), written in Swift.
 
-You can visit the latest [release](https://github.com/luosheng/OpenSim/releases) to grab a compiled version. (Warning: It's not code-signed.)
+This fork adds a simulator-level **Reveal Files App Storage in Finder** action, making it easy to open the selected simulator's Files app storage from the menu bar.
 
-## Install with Homebrew Cask
+## Build and Run
 
-1. Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-2. Install Cask: `brew install cask`
-3. Install OpenSim: `brew cask install opensim`
+This fork is not distributed through Homebrew. The existing [`opensim` Homebrew cask](https://formulae.brew.sh/cask/opensim) points to the original project and is currently disabled.
+
+To build and launch this fork from source, install Xcode and run:
+
+```bash
+git clone https://github.com/NSErfan/OpenSim.git
+cd OpenSim
+./script/build_and_run.sh
+```
+
+Alternatively, open `OpenSim.xcodeproj` in Xcode and run the `OpenSim` scheme.
 
 ## TODO
 
